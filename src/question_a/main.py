@@ -1,7 +1,7 @@
 from question_a import get_random_number
 
 def main():
-    print("Welcome to the Guessing Game!")
+    print("Welcome to the Guessing Game!") 
 
     while True:
         number = get_random_number()

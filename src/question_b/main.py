@@ -3,7 +3,7 @@
 from question_b import get_day_of_week
 
 def main():
-    print("Day of the Week Finder")
+    print("Day of the Week Finder") 
 
     while True:
         try:

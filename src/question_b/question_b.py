@@ -8,4 +8,4 @@ def get_day_of_week(day):
         6: "Saturday",
         7: "Sunday"
     }
-    return days.get(day, "Invalid number")
+    return days.get(day, "Invalid number") 

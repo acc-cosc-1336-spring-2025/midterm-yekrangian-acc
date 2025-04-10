@@ -13,7 +13,7 @@ def main():
             assessment = get_assessment_value(actual_value)
             tax = get_tax_assessed(assessment)
 
-            print(f"Assessment value: ${assessment:,.2f}")
+            print(f"Assessment value: ${assessment:,.2f}") 
             print(f"Property tax: ${tax:,.2f}")
 
         except ValueError:

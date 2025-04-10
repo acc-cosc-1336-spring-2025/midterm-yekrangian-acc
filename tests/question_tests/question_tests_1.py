@@ -7,5 +7,5 @@ class TestQuestionA(unittest.TestCase):
             result = get_random_number()
             self.assertIn(result, range(1, 6), f"Number {result} is out of range!")
 
-if __name__ == '__main__':
+if __name__ == '__main__': 
     unittest.main()
